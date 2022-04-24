@@ -21,6 +21,7 @@
 
 
 
+
   /* **************** */
   opacity: 1;
   /* **************** */
@@ -72,6 +73,7 @@
   padding: 2vh 7vw;
   transform: translateX(-70vw);
   transition: transform 1000ms ease-in, opacity 1500ms ease-in;
+  line-height: 5px;
 }
 
 .engineerContent h3 {
@@ -98,7 +100,7 @@
   width: 50vw;
   height: 50vh;
   padding: 2vh 5vw;
-  line-height: 5px;
+    line-height: 5px;
   transform: translateX(70vw);
   transition: transform 1000ms ease-in, opacity 1500ms ease-in;
 }
