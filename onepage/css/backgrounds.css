@@ -1,0 +1,158 @@
+.mainBackground {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  /* margin: 2vh 5vw; */
+  margin: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  /* border: 5px solid lightgreen; */
+  /* background-color: rgb(199, 244, 22); */
+  /* background: radial-gradient(circle at top right, white 5%, rgba(0, 0, 0, 0.34)); */
+  background-repeat: no-repeat;
+  z-index: 20;
+
+}
+
+.bgText {
+  position: absolute;
+
+  width: 85vw;
+  height: 85vh;
+
+  /* border: 5px solid yellow;   */
+  padding: 1vh 2vw;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  font-size: 10vw;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  opacity: 0;
+  /* transition: opacity 3500ms ease-in; */
+  z-index: 30;
+  display: none;
+}
+
+
+/* ******* WELCOME BG ******* */
+.welcomeBg {
+  /* margin-top: 30vh; */
+  position: absolute;
+
+  width: 85vw;
+  height: 80vh;
+
+  margin-left: 10vw;
+  padding: 1vh 2vw;
+  /* border: 5px solid yellow; */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  font-size: 12vw;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(76, 62, 201);
+  color: white;
+
+  opacity: 0.5;
+  transition: transform 1500ms ease-in, opacity 1000ms ease-in-out;
+}
+
+.welcomeBg span p {
+  /* opacity: 0; */
+  opacity: 0.4;
+}
+
+
+/* ******* ENGINEER BG ******* */
+
+.engineerBg {
+  /* border: 5px solid lightblue; */
+  /* transform: translateX(-50vw); */
+  font-size: 15vw;
+  color: rgb(255, 255, 255);
+  opacity: 0.9;
+  transition: transform 1500ms ease-in, opacity 1500ms ease-in-out;
+
+}
+
+.engineerBg span p {
+  color: yellow;
+}
+
+
+/* ******* PORTFOLIO BG ******* */
+
+.developerBg {
+  /* transform: translateX(-80vw); */
+  opacity: 0.7;
+  color: blue;
+  font-size: 15vw;
+
+  transition: transform 1500ms ease-in, opacity 1000ms ease-in-out;
+
+}
+
+.developerBg span p {
+  color: purple;
+}
+
+
+/* ******* DEVELOPER BG ******* */
+
+.portfolioBg {
+
+  /* transform: translateX(80vw); */
+  font-size: 15vw;
+  color: purple;
+  opacity: 0.1;
+  transition: transform 1500ms ease-in, opacity 1000ms ease-in-out;
+
+}
+
+.portfolioBg span p {
+  /* margin-top: 10vh */
+
+  line-height: 250px;
+  color: blue;
+  opacity: 1;
+}
+
+/* ******* CONTACT BG ******* */
+
+.contactBg {
+
+  font-size: 17vw;
+  /* transform: translateX(-80vw); */
+  color: rgb(144, 23, 23);
+  opacity: 1;
+  transition: transform 1500ms ease-in, opacity 1000ms ease-in-out;
+
+}
+
+
+/* ********* END MESSAGE ********* */
+.end {
+  width: 80vw;
+  height: 50vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.end p {
+  margin-bottom: 0px;
+  font-size: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}

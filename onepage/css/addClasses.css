@@ -1,0 +1,56 @@
+/* *** CLASSES FOR JAVASCRIPT *** */
+
+/* SAME CLASSES FOR ALL CONTENTS */
+
+.showWelcomeContent {
+  display: flex;
+  opacity: 1;
+}
+
+.showEngineerBg {
+  display: flex;
+  opacity: 0.3;
+}
+
+.showDeveloperBg {
+  display: flex;
+  opacity: 0.7;
+}
+
+.showPortfolioBg {
+  display: flex;
+  opacity: 0.6;
+}
+
+.showContactBg {
+  display: flex;
+  opacity: 0.8;
+}
+
+/* 
+  .showElementOpacityLow {
+    display: flex;
+    opacity: 0.4;
+  }
+
+  .showElementOpacityMedium {
+    display: flex;
+    opacity: 0.6;
+  }
+
+  .showElementOpacityHigh {
+    display: flex;
+    opacity: 0.8;
+  } */
+
+.hideElement {
+  display: none;
+}
+
+.slideInX {
+  transform: translateX(1px);
+}
+
+.slideInY {
+  transform: translateY(0vh);
+}
