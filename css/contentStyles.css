@@ -195,15 +195,15 @@
   cursor: pointer;
 }
 
-/* .project a {
-  text-decoration: none;
-  color: white;
-} */
-
-#hyper {
+.project a {
   text-decoration: none;
   color: white;
 }
+
+/* #hyper {
+  text-decoration: none;
+  color: white;
+} */
 
 
 .project:hover {
