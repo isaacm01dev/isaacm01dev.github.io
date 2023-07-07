@@ -1,0 +1,116 @@
+.place {
+  display: none;
+}
+
+.restaurant {
+  width: 60vw;
+  height: 60vh;
+  position: absolute;
+  margin-left: 30vw;
+  margin-top: 10vh;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+}
+
+.restaurantTitle {
+  position: absolute;
+  top: -20%;
+  color: rgb(130, 0, 0);
+  font-size: 1.5em;
+  font-weight: bold;
+  z-index: 9;
+}
+
+.placePhotos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.7;
+}
+
+.placePhotos:hover {
+  z-index: 99;
+  transition: transform 1s ease-in-out, opacity 1s, font-size 1s;
+  transform: scale(1.5, 1.5);
+  opacity: 1;
+  font-size: 2em;
+  font-weight: bold;
+  word-break: keep-all;
+}
+
+
+.placePhotos img {
+  max-width: 450px;
+  max-height: 300px;
+  position: absolute;
+  border: 5px solid white;
+}
+
+.placePhotos label {
+  position: absolute;
+  font-size: 1.5em;
+  color: white;
+}
+
+/* LOCATION */
+.photo1 {
+  grid-column: 2/6;
+  grid-row: 2/5;
+}
+
+/* STAFF */
+.photo2 {
+  grid-column: 7/10;
+  grid-row: 1/3;
+}
+
+/* BAR */
+.photo3 {
+  grid-column: 8/10;
+  grid-row: 3/6;
+}
+
+/* TERRACE */
+.photo4 {
+  grid-column: 5/8;
+  grid-row: 5/7;
+}
+
+
+/* KITCHEN*/
+.photo5 {
+  grid-column: 1/5;
+  grid-row: 6/8;
+}
+
+/* CELLAR */
+.photo6 {
+  grid-column: 3/7;
+  grid-row: 7/10;
+}
+
+/* HOME MADE */
+.photo7 {
+  grid-column: 7/13;
+  grid-row: 6/10;
+}
+
+/* THE OVEN */
+.photo8 {
+  grid-column: 2/6;
+  grid-row: 10/12;
+}
+
+/* DINNING ROOM */
+.photo9 {
+  grid-column: 4/10;
+  grid-row: 9/11;
+}
+
+/* COFFEE */
+.photo10 {
+  grid-column: 9/11;
+  grid-row: 8/13;
+}

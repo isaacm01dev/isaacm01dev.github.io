@@ -1,0 +1,36 @@
+.aboutUs {
+  display: none;
+}
+
+.showOurStory {
+  position: absolute;
+  max-width: 35vw;
+  height: 60vh;
+  margin-right: 5vw;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+  border: 5px solid rgb(129, 4, 4);
+}
+
+.showOurStory h3,
+p {
+  margin: 10% 15%;
+}
+
+.aboutUsContent {
+  background-color: blue;
+}
+
+
+.showOurStory img {
+  max-width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  opacity: 0.2;
+}

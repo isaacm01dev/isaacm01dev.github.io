@@ -1,0 +1,56 @@
+/* ********** STYLE VARIABLES ************ */
+
+/* --------- FONT FAMILIES ---------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&family=Didact+Gothic&family=Roboto:wght@300&family=Work+Sans:wght@300&display=swap');
+/* --------- COLORS  ---------- */
+
+:root {
+
+  /* ------- BACKGROUNDS --------- */
+  --backgroundColor1: white;
+  --backgroundColor2: rgb(0, 0, 0);
+  --backgroundColor3: rgb(107, 21, 21);
+  --backgroundColor4: rgb(119, 89, 61);
+  --backgroundColor5: rebeccapurple;
+  --backgroundColor6: brown;
+
+
+  --gradientColor1: rgb(253, 253, 253);
+  --gradientColor2: rgb(0, 17, 255);
+
+
+  /* ------ TRANSPARENT COLORS ALFA ----- */
+  --glassColor1: rgba(255, 255, 255, 0.5);
+
+
+  /* ----------- TEXT COLORS------------ */
+  --textColor1: rgb(0, 0, 0);
+  --textColor2: rgb(255, 255, 255);
+
+
+
+  /* ----------- FONT FAMILIES ------------ */
+  --fontFamilyTitle1: 'League Gothic', sans-serif;
+  --fontFamilyTitle2: 'Oswald', sans-serif;
+  --fontFamilyTitle3: 'Roboto', sans-serif;
+
+  --fontFamilyText1: 'League Gothic', sans-serif;
+  --fontFamilyText2: 'Oswald', sans-serif;
+  --fontFamilyText3: 'Roboto', sans-serif;
+
+  /* -----MOVEMENT VARIABLES ---- */
+  --translateVerySlow: 4s;
+  --translateSlow: 2s;
+  --translateMedium: 1s;
+  --translateQuick: 0.7s;
+  --translateFast: 0.5s;
+
+
+  --transitionEaseOpenSections: ease-in-out;
+
+}

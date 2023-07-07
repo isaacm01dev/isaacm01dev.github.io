@@ -1,0 +1,17 @@
+#welcomePlaceSection {
+  background-color: rgb(107, 21, 21);
+  border-right: 0.5px solid white;
+
+
+}
+
+#welcomePlaceSection:hover {
+  /* transform: translateX(-50vw); */
+  background-color: rgb(161, 161, 161);
+
+}
+
+#welcomePlaceBtn:hover {
+  cursor: pointer;
+  color: rgb(193, 17, 17);
+}

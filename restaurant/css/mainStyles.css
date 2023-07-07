@@ -1,0 +1,194 @@
+body {
+  overflow-x: hidden;
+  overflow-y: hidden;
+
+}
+
+.mainDiv {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  /* background-color: rgb(228, 228, 228); */
+  /* color: white; */
+  color: white;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+
+  /* font-family: 'Lato', sans-serif; */
+  font-family: 'Alegreya Sans', sans-serif;
+
+  /* font-family: 'Didact Gothic', sans-serif; */
+
+  /* font-family: 'Roboto', sans-serif; */
+
+  /* font-family: 'Work Sans', sans-serif; */
+
+}
+
+
+
+#mainBgImage {
+  position: absolute;
+  z-index: -1;
+  opacity: 0.5;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-image: url('https://images.unsplash.com/photo-1603777953081-624bff44a0a5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8ZmxvdXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transform: rotateY(180deg) rotateZ(180deg);
+}
+
+.restaurantName {
+  position: absolute;
+  z-index: 99;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  transition: display 2s;
+}
+
+.restaurantName h2 {
+  font-family: 'Tangerine', cursive;
+  font-size: 2.9rem;
+  font-weight: 300;
+  margin: 0;
+}
+
+.detectThisUnusedClass {
+  /* EXTENSION DOES NOT WORK */
+  color: red;
+}
+
+/* ********** WELCOME SLIDES *************** */
+
+.welcomeSection {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+
+  transition: transform var(--translateMedium) ease-in-out;
+}
+
+/* ******* SHOW PAGE CONTENTS *********** */
+
+
+.welcome {
+  margin: 1vh 10vw;
+  width: 25vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  transition: transform var(--translateMedium) ease-in-out;
+
+}
+
+.welcome h1 {
+  font-size: 2rem;
+}
+
+.welcome p {
+  font-size: 1.1rem;
+}
+
+.welcomeImage {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -9;
+  opacity: 0;
+  transition: opacity var(--translateSlow) ease 300ms;
+}
+
+
+/* ********************************/
+/* CLASSES FOR JAVASCRIPT CHANGES */
+/* ********************************/
+
+
+/* BACK TO ORIGIN STATE  */
+/* .menuSectionOrigin {
+  transform: translateX(-25vw);
+}
+
+.placeSectionOrigin {
+  transform: translateX(47vw);
+}
+
+.welcomeMenuContentOrigin {
+  transform: translateX(-12vw);
+}
+
+.welcomePlaceContentOrigin {
+  transform: translateX(12vw);
+} */
+
+/* FULL SECTION HIDDEN  ********/ 
+
+.menuSectionHidden {
+  transform: translateX(47vw);
+}
+
+.placeSectionShowImage {
+  transform: translateX(-25vw);
+}
+
+/* HALF SECTION SHOW IMAGE ********/
+
+.menuSectionShowImage {
+  transform: translateX(25vw);
+}
+
+.placeSectionHidden {
+  transform: translateX(-47vw);
+}
+
+
+/* MOVE SECTION CONTENT ********/
+
+.movePlaceSectionContent {
+  transform: translateX(12vw);
+}
+
+.moveMenuSectionContent {
+  transform: translateX(-12vw);
+}
+
+/* ************************** */
+
+.sliderHandleBtnShow {
+  opacity: 1;
+  cursor: pointer;
+
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  border: 3px solid white;
+  background-color: transparent;  
+  z-index: 99;
+  transition: transform var(--translateMedium) var(--transitionEaseOpenSections);
+}
+
+.sliderHandleBtnShow:hover {
+  background-color: blanchedalmond;
+}
+
+/* ********************* */
+/* ********************* */
+/* ********************* */
