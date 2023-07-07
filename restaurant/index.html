@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Web Page</title>
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/styleVariables.css">
+  <!-- <link rel="stylesheet" href="css/styleAnimations.css"> -->
+
+
+  <link rel="stylesheet" href="css/mainStyles.css">
+
+  <link rel="stylesheet" href="css/miscStyles.css">
+
+  <link rel="stylesheet" href="css/welcomeMenuStyles.css">
+  <link rel="stylesheet" href="css/welcomePlaceStyles.css">
+
+  <link rel="stylesheet" href="css/bookMenu.css">
+  <link rel="stylesheet" href="css/placeStyles.css">
+  <link rel="stylesheet" href="css/aboutUs.css">
+  <link rel="stylesheet" href="css/reservations.css">
+
+  <link rel="stylesheet" href="css/verticalStyles.css">
+
+</head>
+
+
+
+
+
+
+<body>
+
+  <div class="mainDiv">
+    <div id="mainBgImage"></div>
+    <div class="restaurantName">
+
+      <h2>Welcome to</h2>
+      <h2> Dareios's Old Bakery</h2>
+    </div>
+
+
+
+
+
+
+    <!-- *************** PHOTO SLIDER BLACK AND WHITE ******************* -->
+
+
+
+    <div class="book">
+
+      <input type="checkbox" id="c1">
+      <input type="checkbox" id="c2">
+      <input type="checkbox" id="c3">
+
+      <!-- <div id="cover"><img src="img/burger1.jpg"></div> -->
+
+      <div class="flip-book">
+
+        <!-- *********  FLIP  ************ -->
+
+        <div class="flip" id="page3">
+          <div class="back oneSide">
+
+            <dl class="foodList beverages">
+              <hr>
+              <dt>Beers :</dt>
+              <dd>We have some of the most common types of beer like lagger, ales, IPA, and stouts...</dd>
+              <hr>
+              <dt>Wines:</dt>
+              <dd>In our cellar, we store wines from <span> Spain, Italy, France, Chile </span>and
+                <span>
+                  Australia</span>.
+              </dd>
+              <hr>
+              <dt>Coffee:</dt>
+              <dd>Enjoy our selection of high quality coffee from Ethiopia, Guatemala and Thailand....Enjoy your meal!!</dd>
+              
+              <hr>
+
+              <dd>
+              </dd>
+
+            </dl>
+
+
+
+            <img src="img/drinks/wine5.jpg">
+            <div class="pageBtn">
+              <label for="c3" class="back-btn pageBtn"></label>
+            </div>
+          </div>
+
+          <div class="front oneSide">
+
+            <div class="foodList">
+              <dl>
+                <hr>
+                <dt>Desserts</dt>
+
+                <dd>CHOCOLATE CAKE</dd>
+                <dd>RICOTTA CAKE</dd>
+                <dd>BAKLAVA ROLLS</dd>
+                <dd>APPLE PIE</dd>
+                <dd>CHERRY SPONGE</dd>
+                <dd>CARAMEL CAKE</dd>
+                <dd>CHOCOLATE PUDDING</dd>
+                <dd>FRANGELICO TART</dd>
+                <dd>BERRY CRUMBLE</dd>
+                <dd>ALMOND SHORTCAKE</dd>
+                <dd>HOMEMADE ICE-CREAM</dd>
+                <hr>
+              </dl>
+            </div>
+
+
+            <img src="img/food/ice-cream1.jpg">
+            <div class="pageBtn">
+              <label for="c3" class="next-btn pageBtn"></label>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- *********  FLIP  ************ -->
+
+
+        <!-- *********  FLIP  ************ -->
+
+        <div class="flip " id="page2">
+          <div class="back oneSide">
+            <div class="foodList">
+              <dl>
+                <hr>
+                <dt>Pizza</dt>
+
+                <dd>FRESH HERBS</dd>
+                <dd>SMOKED TURKEY PIZZA</dd>
+                <dd>BUFFALO CHICKEN</dd>
+                <dd>GREEK PIZZA</dd>
+                <dd>HAWAIAN BBQ</dd>
+                <dd>THAI CHICKEN PIZZA</dd>
+                <hr>
+                <dt>Pasta</dt>
+                <dd>GARGANELLI WITH ZUCCHINI
+                <dd>
+                <dd>TAGLIATELLE AL PESTO</dd>
+                <dd>FETTUCCINE ALFREDO</dd>
+                <dd>RAVIOLI DI RICOTTA</dd>
+                <hr>
+              </dl>
+            </div>
+            <img src="img/food/pizza1.jpg">
+            <div class="pageBtn">
+              <label for="c2" class="back-btn pageBtn"></label>
+            </div>
+          </div>
+
+          <div class="front oneSide">
+            <div class="foodList">
+              <dl>
+                <hr>
+                <dt>Steaks</dt>
+
+                <dd>GRILLED STEAK</dd>
+                <dd>MONGOLIAN GLAZED STEAK</dd>
+                <dd>CAJUN BUTTER STEAK</dd>
+                <!-- <dd>FILET MIGNON</dd> -->
+                <dd>CREOLE CHICKEN</dd>
+                <hr>
+                <br>
+                <dt>Burgers</dt>
+
+                <dd>BACON & EGG </dd>
+                <dd>CLASSIC BEEF </dd>
+                <dd>BRIE & CHEDDAR</dd>
+                <dd>BBQ</dd>
+                <dd>SWEET ONION </dd>
+                <!-- <dd>CHILI</dd> -->
+                <br>
+                <hr>
+              </dl>
+            </div>
+            <img src="img/food/burger2.jpg">
+            <div class="pageBtn">
+              <label for="c2" class="next-btn pageBtn"></label>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- *********  FLIP  ************ -->
+
+
+        <!-- *********  FLIP  ************ -->
+
+        <div class="flip" id="page1">
+          <div class="back oneSide">
+            <div class="foodList">
+              <dl>
+                <hr>
+                <dt>Starters</dt>
+
+                <dd>SEARED FOIE GRAS</dd>
+                <dd>BEEF TATAKI</dd>
+                <!-- <dd>FRICASSEE OF WILD MUSHROOMS</dd> -->
+                <dd>RIBS & CHIPS</dd>
+                <dd>LOBSTER ROLLS</dd>
+                <dd>STEAMED MUSSELS</dd>
+                <!-- <dd>MOZZARELLA IN CAROZZA</dd> -->
+                <br>
+                <hr>
+                <dt>Salads</dt>
+
+                <dd>CAESAR SALAD</dd>
+                <dd>CAPRESE SALAD</dd>
+                <dd>MILANESE SALAD</dd>
+                <dd>WEDGE SALAD</dd>
+                <br>
+                <hr>
+              </dl>
+            </div>
+            <img src="img/food/salad2.jpg">
+            <div class="pageBtn">
+              <label for="c1" class="back-btn pageBtn"></label>
+            </div>
+          </div>
+
+          <div class="front oneSide">
+
+            <h2>Menu</h2>
+            <p>You can find several recipes and delicatessen from all over the world. <br>
+              <br> Our chef keeps updating this
+              menu every week.
+              <br>
+              <br>
+              Please ask for the today's special dishes!!
+            </p>
+            <p>Enjoy your meal!!</p>
+
+
+            <div class="pageBtn">
+              <img
+                src="https://images.pexels.com/photos/6294395/pexels-photo-6294395.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260">
+              <label for="c1" class="next-btn pageBtn"></label>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- *********  FLIP  ************ -->
+
+
+
+      </div>
+
+    </div>
+
+
+    <!-- **************  THE RESTAURANT ***************** -->
+
+    <div class="place">
+      <div class="restaurantTitle">
+        <h1>the restaurant</h1>
+      </div>
+
+      <div class="photo1 placePhotos">
+        <img src="img/place/location1.jpg">
+        <label for="photo1">location</label>
+      </div>
+      <div class="photo2 placePhotos">
+        <img
+          src="https://images.pexels.com/photos/3217156/pexels-photo-3217156.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260">
+        <label for="photo2">the staff</label>
+      </div>
+      <div class="photo3 placePhotos">
+        <img src="img/place/bar1.jpg">
+        <label for="photo3">the bar</label>
+      </div>
+      <div class="photo4 placePhotos">
+        <img
+          src="https://images.pexels.com/photos/984888/pexels-photo-984888.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260">
+        <label for="photo4">our terrace<br> </label>
+      </div>
+      <div class="photo5 placePhotos">
+        <img src="img/people/staff1.jpg">
+        <label for="photo5">kitchen</label>
+      </div>
+      <div class="photo6 placePhotos">
+        <img src="img/drinks/wine3.jpg">
+        <label for="photo6">our cellar</label>
+      </div>
+      <div class="photo7 placePhotos">
+        <img
+          src="https://images.pexels.com/photos/6287312/pexels-photo-6287312.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260">
+        <label for="photo7">homemade</label>
+      </div>
+      <div class="photo8 placePhotos">
+        <img src="img/food/pizza2.jpg">
+        <label for="photo8">the oven</label>
+      </div>
+      <div class="photo9 placePhotos">
+        <img src="img/place/place3.jpg">
+        <label for="photo9">dinning room</label>
+      </div>
+      <div class="photo10 placePhotos">
+        <img src="img/drinks/coffee1.jpg">
+        <label for="photo10">coffee</label>
+      </div>
+
+
+
+
+
+
+
+    </div>
+
+
+
+    <!-- ************************************************ -->
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- *************************************************** -->
+
+    <!-- **************************************** -->
+    <!-- *********** WELCOME SECTIONS *********** -->
+    <!-- **************************************** -->
+    <!-- **************************************** -->
+
+
+    <!-- 
+      <div class="sliderHandle content">
+        
+      </div> -->
+
+    <div class="sliderHandle" id="sliderHandlePlaceBtn">
+      <span>close</span>
+    </div>
+
+    <div class="sliderHandle" id="sliderHandleMenuBtn">
+      <span>
+        close</span>
+    </div>
+
+
+
+
+
+    <!-- ************ SECTION LEFT - OUR PLACE ************** -->
+
+
+    <section class="welcomeSection" id="welcomePlaceSection">
+
+      <img src="img/place/place3.jpg" class="welcomeImage" id="placeWelcomeImage">
+
+      <div class="welcome welcomePlaceContent">
+
+        <h1 id="welcomePlaceBtn">Our Restaurant</h1>
+
+        <p>Certainly, it is an ancient building, with a lot of history and memories, but with an innovative mindset
+          inside. <br>
+          We hope this blend will make you all enjoy the comfort of a family place
+          together with a dynamic and changing kitchen style and pleasent gastronomic experience.</p>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- ************ SECTION RIGHT - OUR MENU ************** -->
+
+
+
+    <section class="welcomeSection" id="welcomeMenuSection">
+
+      <!-- <img src="../img/food/steak1.jpg" class="welcomeImage" id="menuWelcomeImage"> -->
+      <img
+        src="https://images.unsplash.com/photo-1565299715199-866c917206bb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8c3RlYWt8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60"
+        class="welcomeImage" id="menuWelcomeImage">
+
+      <div class="welcome welcomeMenuContent">
+
+        <h1 id="welcomeMenuBtn">Our Menu</h1>
+        <p>We believe every culinaire style can be as excellent as simple if it's prepared with the best ingredients and
+          in the way it deserves. We make a selection of several products and styles to achieve the best experience for
+          our costumers who come back to try whatever the author in the kitchen has created for them.</p>
+      </div>
+
+
+
+    </section>
+
+
+    <!-- **************************************** -->
+    <!-- **************************************** -->
+    <!-- *********** END WELCOME SECTIONS ******* -->
+    <!-- **************************************** -->
+
+
+    <!-- **************** ABOUT US ***************** -->
+
+
+    <div class="aboutUs">
+
+      <h1>Our Story</h1>
+      <p>It all started back in 1948 when Grandpa Dareios, founded a humble bakery in this same place that
+        after
+        three
+        generations would become our current restaurant.
+        <br>
+        <br>
+        Those were hard times but since then, we have always been
+        concerned about giving a good customer service and high quality in our products. Over the years, we have been
+        improving our dishes and those who have tried our specialties always come back.
+      </p>
+
+      <img src="img/place/story1.jpg">
+    </div>
+
+
+
+    <!-- **************** BOOKINGS ************* -->
+    <div class="reservations">
+      <h3>Reservations</h3>
+      <p>Please enter your credentials below and make your reservation. Thank you.</p>
+      <form>
+        <input type="text" class="name" placeholder="Enter your name">
+        <input type="email" class="email" placeholder="Enter your email">
+        <input type="datetime-local" class="date">
+        <button type="submit">Reserve</button>
+      </form>
+      <img src="img/place/reservations2.jpg">
+    </div>
+
+
+
+
+    <!-- ************** NAV BAR ******************** -->
+
+    <div class="navBar">
+      <a id="aboutBtn">Our Story</a>
+      <a id="reservationsBtn">Reservations</a>
+    </div>
+    <!-- <img src="img/food/flour2.jpg" id="mainBgImage"> -->
+
+
+
+
+
+
+
+
+
+
+  </div>
+
+
+  <script src="index.js"></script>
+  <!-- <script src="place.js"></script> -->
+  <!-- <script src="menu.js"></script> -->
+</body>
+
+</html>
