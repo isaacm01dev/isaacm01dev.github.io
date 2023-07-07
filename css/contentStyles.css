@@ -163,7 +163,6 @@
   align-items: center;
   flex-wrap: wrap;
   flex-flow: row wrap;
-
 }
 
 .projectsRow {
@@ -191,13 +190,14 @@
   justify-items: center;
   align-items: center;
   align-content: center;
-  text-decoration: none;
 
   background: linear-gradient(to top, white, rgba(0, 0, 0, 0.504) 80%);
   cursor: pointer;
 }
 
-
+.project a{
+  text-decoration: none;
+}
 
 
 .project:hover {
