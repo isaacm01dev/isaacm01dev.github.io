@@ -1,0 +1,32 @@
+  /* ----------  ROTATIONS ---------- */
+  
+  @keyframes rotation1 {
+    from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(359deg);
+  }
+}
+
+
+@keyframes rotation2 {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(359deg);
+  }
+}
+
+
+@keyframes rotation3 {
+  from {
+    transform: rotateX(0deg);
+  }
+  to {
+    transform: rotateX(359deg);
+  }
+}
+
+/* ---------- TRANSLATIONS ---------- */

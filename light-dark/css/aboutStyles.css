@@ -1,0 +1,116 @@
+.aboutContent {
+  margin-top: 15vh;
+
+  max-width: 65vw;
+
+  min-height: 55vh;
+  max-height: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+
+  padding: 0;
+
+  border-radius: 15px;
+  font-family: var(--fontFamilyText3);
+  z-index: 999;
+
+  /* LIGHT */
+  border: 1.7px solid var(--gradientColor1);
+  background: linear-gradient(to right, var(--glassColor1) 1%, var(--glassColor5) 50%);
+  box-shadow: 10px 10px 10px 5px var(--glassColor1);
+  color: var(--textColor1);
+}
+
+.aboutContentDark {
+
+  /* DARK */
+  background: linear-gradient(to right, var(--glassColor9) 1%, var(--glassColor1) 50%);
+  border: 1.7px solid var(--gradientColor1);
+  box-shadow: 10px 10px 10px 5px var(--glassColor1);
+  color: var(--textColor1);
+}
+
+.aboutContent .contentTitle h2 {
+  margin: 0;
+}
+
+.aboutContent p {
+  display: inline-block;
+}
+
+
+
+.biography {
+  width: 90%;
+  height: 90%;
+  border-radius: 15px;
+  padding: 1.2em 1.7em;
+  margin: 2% 4%;
+  background: linear-gradient(to right, var(--glassColor2), var(--glassColor1));
+  border: 1.5px solid var(--gradientColor1);
+  box-shadow: 10px 10px 10px 5px var(--glassColor1);
+}
+
+.biographyDark {
+
+
+  /* DARK */
+  background: linear-gradient(to right, var(--glassColor2) 1%, var(--glassColor1));
+  color: var(--textColor1);
+  border: 1.5px solid var(--gradientColor1);
+  box-shadow: 10px 10px 10px 5px var(--glassColor1);
+}
+
+
+.skills {
+  margin: 0.5vh 1vw;
+  margin-bottom: 2vh;
+  width: 80%;
+  height: 95%;
+  background: linear-gradient(to right, var(--glassColor1), var(--glassColor6));
+  border-radius: 15px;
+  padding: 0.1em;
+  border: 2px solid var(--gradientColor1);
+  box-shadow: 10px 10px 10px 5px var(--glassColor1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+
+.skillsRow {
+  margin: 0;
+  width: 95%;
+  height: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  padding: 0;
+}
+
+.skillsIcon {
+  width: clamp(1rem, 2.5vw, 3rem);
+  height: clamp(1rem, 2.5vw, 3rem);
+  margin: 0.5em 0.3em;
+}
+
+.skillsIcon:hover {
+  animation: rotation1 0.3s linear;
+}
+
+
+.skillsDark {
+
+  /* DARK */
+  background: linear-gradient(to right, var(--glassColor1), var(--glassColor9));
+  border: 1.5px solid var(--gradientColor1);
+  box-shadow: 10px 10px 10px 5px var(--glassColor1);
+}

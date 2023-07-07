@@ -1,0 +1,64 @@
+.homePage {
+  margin-top: 10%;
+  width: 50%;
+  height: 50%;
+  z-index: 999;
+  
+}
+
+.hello {
+  font-size: clamp(4rem, 13vw, 18rem);
+  font-family: var(--fontFamilyTitle2);
+  letter-spacing: 0.0001em;
+  line-height: 1.1;
+  margin-top: 3vh;
+  margin-left: 3vw;
+  color: var(--textColor1); 
+}
+
+.helloDark {
+  font-size: clamp(4rem, 13vw, 18rem);
+  letter-spacing: 0.0001em;
+  line-height: 1.1;
+  margin-top: 3vh;
+  margin-left: 3vw;
+  
+  /* DARK */
+  color: var(--textColor3);
+  
+}
+
+.hello:hover {
+  text-shadow: 7px 7px 10px var(--gradientColor1);
+}
+
+.helloDark:hover {
+  /* DARK */
+  text-shadow: 5px 5px 10px var(--gradientColor7);
+}
+
+.homePage p {
+  margin-top: 2vh;
+  font-size: 1.8em;
+  line-height: 2rem;
+  color: var(--textColor3);
+  font-family:  var(--fontFamilyTitle2);
+  font-weight:100;
+  text-shadow: 10px 10px 10px rgba(175,175,175,0.54);
+}
+
+
+.homePageDark p {
+  margin-top: 2vh;
+  font-size: 1.8em;
+  font-family:  var(--fontFamilyTitle2);
+  font-weight:100;
+  /* DARK */
+  color: var(--gradientColor4);
+  text-shadow: 10px 10px 10px rgba(175,175,175,0.54);
+}
+
+
+.section::-webkit-scrollbar {
+    width: 10px;
+}

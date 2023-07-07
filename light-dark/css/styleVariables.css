@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap'); 
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Cabin&family=Lato&family=Merriweather+Sans:wght@400;500&family=Oswald&family=PT+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Raleway:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Oswald:wght@500&family=Raleway:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+:root {
+  /* ------ COLOR VARIABLES ---- */
+
+  /* white = 1
+gray = 2 
+blue = 3 
+orange = 4 
+red = 5 
+black = 6 */
+
+  /* ------- BACKGROUNDS --------- */
+  --backgroundColor1: white;
+  --backgroundColor2: rgb(0, 0, 0);
+  --backgroundColor3: antiquewhite;
+  --backgroundColor4: rgb(6, 205, 255);
+
+  --gradientColor1: rgb(253, 253, 253);
+  --gradientColor2: rgb(0, 17, 255);
+  --gradientColor3: rgb(230, 230, 230);
+  --gradientColor4: rgb(156, 156, 156);
+  --gradientColor5: rgb(255, 157, 0);
+  --gradientColor6: rgb(0, 0, 0);
+  --gradientColor7: rgb(202, 9, 9);
+  --gradientColor8: rgb(214, 214, 214);
+  
+  /* ------ TRANSPARENT COLORS ALFA ----- */
+  --glassColor1:rgba(255, 255, 255, 0.5);
+  --glassColor2:rgba(255, 157, 0, 0.8);
+  --glassColor3:rgba(0, 133, 241, 0.7);
+  --glassColor4:rgba(238, 16, 16, 0.2);
+  --glassColor5:rgba(255, 255, 255, 0.25);
+  --glassColor6: rgb(214, 214, 214, 0.5);
+  --glassColor7: rgb(102, 51, 153, 0.9); 
+  --glassColor8: rgb(0, 17, 255,0.9);
+  --glassColor9: rgb(214, 214, 214, 0.1);
+  --glassColor10: rgb(202, 9, 9, 0.5);
+  
+  /* ----------- TEXT COLORS------------ */
+  --textColor1: rgb(0, 0, 0);
+  --textColor2: rgb(255, 255, 255);
+  --textColor3: rgb(255, 157, 0);
+  --textColor4: rgb(0, 133, 241);
+  --textColor5: rgb(255, 0, 0);
+  --textColor6: rgb(0, 17, 255);
+  --textColor7: rgb(102, 51, 153); 
+  --textColor8: rgb(202, 9, 9);
+  --textColor9: rgb(214, 214, 214);
+  
+  
+  /* ----------- FONT FAMILIES ------------ */
+  --fontFamilyTitle1: 'League Gothic', sans-serif;
+  --fontFamilyTitle2: 'Oswald', sans-serif;
+  --fontFamilyTitle3: 'Roboto', sans-serif;
+  
+  --fontFamilyText1: 'League Gothic', sans-serif;
+  --fontFamilyText2: 'Oswald', sans-serif;
+  --fontFamilyText3: 'Roboto', sans-serif;
+
+  /* -----MOVEMENT VARIABLES ---- */
+  --translateVerySlow: 4s;
+  --translateSlow: 2s;
+  --translateMedium: 1s;
+  --translateQuick: 0.7s;
+  --translateFast: 0.5s;
+
+  
+}

@@ -1,0 +1,163 @@
+.projectsPage {
+  margin-top: 50vh;
+}
+
+.projectsContent1 {
+  margin-top: 5vh;
+  min-width: 70vw;
+  max-width: 90vw;
+  height: 35vh;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  grid-template-rows: repeat(auto-fit, 1fr);
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  padding: 1vh 2vw;
+  border-radius: 15px;
+
+  border: 1.7px solid var(--gradientColor1);
+  box-shadow: 10px 10px 10px 5px var(--glassColor1);
+  color: var(--textColor1);
+
+  font-family: var(--fontFamilyText1);
+  text-align: center;
+  z-index: 999;
+}
+
+/*  this is just a temporal adjustment to avoid classList effect to only first element.. */
+.projectsContent2 {
+  margin-top: 10vh;
+  min-width: 70vw;
+  max-width: 90vw;
+  /* max-width: 80%; */
+  height: 35vh;
+  display: grid;
+  /* grid-template-columns: repeat(3, 1fr); */
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  grid-template-rows: repeat(auto-fit, 1fr);
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  padding: 1vh 2vw;
+  border-radius: 15px;
+
+  border: 1.7px solid var(--gradientColor1);
+  box-shadow: 10px 10px 10px 5px var(--glassColor1);
+  color: var(--textColor1);
+
+  font-family: var(--fontFamilyText1);
+  text-align: center;
+  z-index: 999;
+}
+
+.projectsContent1:hover {
+  background: linear-gradient(to top right, var(--glassColor1), var(--glassColor6) 65%);
+  border: 2px solid var(--gradientColor1);
+
+}
+
+.projectsContent2:hover {
+  background: linear-gradient(to top right, var(--glassColor1), var(--glassColor6) 65%);
+  border: 2px solid var(--gradientColor1);
+}
+
+
+
+.projectsContentDark {
+  /* margin-top: 10vh;
+  width: 70%;
+  /* max-width: 80%; */
+  height: 35vh;
+  display: grid;
+  /* grid-template-columns: repeat(3, 1fr); */
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-template-rows: repeat(auto-fit, 1fr);
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  padding: 1vh 2vw;
+  border-radius: 15px;
+  color: var(--textColor1);
+  font-family: var(--fontFamilyText1);
+  text-align: center;
+  z-index: 999;
+  /* DARK */
+  border: 1.7px solid var(--gradientColor1);
+  box-shadow: 10px 10px 10px 5px var(--glassColor1);
+
+  color: var(--textColor9);
+}
+
+.projectsContentDark:hover {
+  /* DARK */
+  background: linear-gradient(to top right, var(--glassColor3), var(--glassColor9) 60%);
+
+  border: 2px solid var(--gradientColor1);
+}
+
+.projectCard {
+  width: 90%;
+  height: 80%;
+  margin: 3% 5%;
+  padding: 5% 5%;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px 5px var(--glassColor1);
+  border: 1.7px solid var(--gradientColor1);
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+
+  word-break: keep-all;
+}
+
+
+
+.projectCard:hover {
+  cursor: pointer;
+  background: linear-gradient(to top right, var(--glassColor3), var(--glassColor1) 75%);
+  border: 1.9px solid var(--gradientColor1);
+
+}
+
+.projectCardDark {
+  width: 90%;
+  height: 80%;
+  margin: 3% 5%;
+  padding: 5% 5%;
+  border-radius: 10px;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  word-break: keep-all;
+  /* DARK */
+  box-shadow: 10px 10px 10px 5px var(--glassColor1);
+  border: 1.7px solid var(--gradientColor1);
+}
+
+.projectCardDark:hover {
+  /* DARK */
+  background: linear-gradient(to top right, var(--glassColor3), var(--glassColor9) 60%);
+}
+
+
+.projectCard p {
+  font-size: clamp(1.2rem, 2.9vw, 3.1rem);
+  margin: 2% 10%;
+  padding: 1% 2%;
+
+}
+
+.project1:hover {
+  animation: rotation2 0.8s linear;
+}
+
+.project2:hover {
+  animation: rotation3 0.9s linear;
+}
+
+.project3:hover {
+  animation: rotation2 0.8s linear;
+}

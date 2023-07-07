@@ -1,0 +1,231 @@
+/* ******************************************** */
+/* CORRESPONDENCIAS DE COLORES LIGHT >>>> DARK */
+/* ******************************************** */
+
+
+/* ************ ABOUT PAGE *********** */
+
+.aboutContent {
+  /* LIGHT */
+  background: linear-gradient(to right, var(--glassColor1)1%,  var(--glassColor5)50%);
+  border: 1.7px solid var(--gradientColor1);
+  box-shadow: 10px 10px 10px 5px var(--glassColor1);
+  color: var(--textColor1);
+  /* DARK */
+  background: linear-gradient(to right, var(--glassColor9)1%,  var(--glassColor1)50%);
+  border: 1.7px solid var(--gradientColor1);
+  box-shadow: 10px 10px 10px 5px var(--glassColor1);
+  color: var(--textColor1); 
+}
+
+.biography {
+  /* LIGHT */
+  background: linear-gradient(to right, var(--glassColor2),  var(--glassColor1));
+  /* color: var(--textColor3); */
+  border: 1.5px solid var(--gradientColor1);
+  box-shadow: 10px 10px 10px 5px var(--glassColor1);
+  /* DARK */
+  background: linear-gradient(to right, var(--glassColor2)1%,  var(--glassColor1));
+  /* color: var(--textColor3); */
+  border: 1.5px solid var(--gradientColor1);
+  box-shadow: 10px 10px 10px 5px var(--glassColor1);
+}
+
+.skills {
+  /* LIGHT */
+  background: linear-gradient(to right, var(--glassColor1),  var(--glassColor2));
+  
+  border: 1.5px solid var(--gradientColor1);
+  box-shadow: 10px 10px 10px 5px var(--glassColor1);
+  
+  /* DARK */
+  background: linear-gradient(to right, var(--glassColor1),  var(--glassColor2));
+  border: 1.5px solid var(--gradientColor1);
+  box-shadow: 10px 10px 10px 5px var(--glassColor1);
+}
+
+
+
+/* ************ CONTACT PAGE *********** */
+
+.contactContent {
+/* LIGHT */
+/* no hay background-color: ; */
+  border: 1.7px solid var(--gradientColor7);
+  box-shadow: 10px 10px 10px 5px var(--glassColor4);
+  color: var(--textColor1);
+
+  /* DARK */
+  background: linear-gradient(to bottom left,  var(--glassColor1), var(--glassColor9)50%);
+  border: 1.7px solid var(--gradientColor7);
+  box-shadow: 10px 10px 10px 5px var(--glassColor4);
+  color: var(--gradientColor1);
+}
+
+.contactContent:hover {
+  /* LIGHT */
+  background: linear-gradient(to top right, var(--glassColor1), var(--glassColor6)65%);
+  border: 2px solid var(--gradientColor7);
+  /* DARK */
+  background: linear-gradient(to top right, var(--glassColor1), var(--glassColor9)65%);
+  border: 2px solid var(--gradientColor7);
+}
+
+.socialMedia {
+  /* LIGHT */
+  box-shadow: 10px 10px 10px 5px var(--glassColor4);
+  border: 1.7px solid var(--gradientColor1);
+  /* DARK */
+  box-shadow: 10px 10px 10px 5px var(--glassColor4);
+  border: 1.7px solid var(--gradientColor7);
+}
+
+.socialMedia:hover {
+  /* LIGHT */
+  background: linear-gradient(to top right, var(--glassColor1), var(--glassColor4)75%);
+  border: 1.9px solid var(--gradientColor1);
+  /* DARK */
+  background: linear-gradient(to top right, var(--glassColor1), var(--glassColor4)75%);
+  border: 1.9px solid var(--gradientColor1);
+}
+
+/* ********* HOME PAGE ************ */
+
+
+
+.hello {
+  /* LIGHT */
+  color: var(--textColor1);
+  /* DARK */
+  color: var(--textColor3);
+  
+}
+
+.hello:hover {
+  /* LIGHT */
+  text-shadow: 5px 5px 10px var(--gradientColor7);
+
+  /* DARK */
+  text-shadow: 5px 5px 10px var(--gradientColor7);
+}
+
+.homePage p {
+  /* LIGHT */
+  color: var(--textColor2);
+  font-family:  var(--fontFamilyTitle2);
+  text-shadow: 10px 10px 10px rgba(175,175,175,0.54);
+  /* DARK */
+  color: var(--gradientColor4);
+  text-shadow: 10px 10px 10px rgba(175,175,175,0.54);
+}
+
+
+/* ************* MAIN STYLES ********** */
+
+body {
+  /* LIGHT */
+  background: linear-gradient(to right, var(--gradientColor3) 60%,  var(--gradientColor4));
+  
+  /* DARK */
+  background: linear-gradient(to right, var(--gradientColor6) 60%,  var(--gradientColor7));
+}
+
+
+/* ------ ESTOS NO CAMBIAN ----------- */
+.verticalNavBar a{
+  /* LIGHT */
+  color: var(--textColor2 );
+  /* DARK  ESTE NO CAMBIA*******/ 
+  color: var(--textColor2);
+}
+
+.mainTitle {
+  /* LIGHT */
+  text-shadow: 10px 10px 10px rgba(175,175,175,0.54);
+  /* DARK  ESTE NO CAMBIA*****/
+  text-shadow: 10px 10px 10px rgba(175,175,175,0.54);
+}
+
+/* ............... EL RESTO NO CAMBIAN EN ESTA PAGINA  */
+
+
+
+/* ********** MISCELLANEOUS ******* */
+
+.dayNight {
+  /* LIGHT */
+  background: linear-gradient(to right, var(--gradientColor6) 50%, var(--gradientColor1) 50%);
+  /* DARK */
+  background: linear-gradient(to right, var(--gradientColor6) 50%, var(--gradientColor1) 50%); /* NO CAMBIA */
+}
+
+.planetShadow {
+/* LIGHT */
+  box-shadow: 10px 10px 10px 5px var(--glassColor1);
+  /* DARK */
+  box-shadow: 10px 10px 10px 5px var(--glassColor1);
+  /* NO CAMBIA */
+}
+
+.planet1 {
+  /* LIGHT */
+  background: linear-gradient(to right, var(--gradientColor3), var(--gradientColor5), var(--gradientColor4));
+  /* DARK */
+  background: linear-gradient(to right, var(--gradientColor1), var(--gradientColor6)60%, var(--gradientColor8));
+}
+
+.planet1:hover {
+  /* LIGHT */
+  background: linear-gradient(to right, var(--gradientColor1), var(--gradientColor6) 20%, var(--gradientColor3));
+  /* DARK */
+  background: linear-gradient(to right, var(--gradientColor3), var(--gradientColor5), var(--gradientColor4));
+}
+
+/* ******* PROJECTS STYLES ********* */
+
+.projectsContent {
+  /* LIGHT */
+  border: 1.7px solid var(--gradientColor1);
+  box-shadow: 10px 10px 10px 5px var(--glassColor1);
+   
+  color: var(--textColor1);
+  /* DARK */
+  border: 1.7px solid var(--gradientColor1);
+  box-shadow: 10px 10px 10px 5px var(--glassColor1);
+   
+  color: var(--textColor9);
+}
+
+.projectsContent:hover {
+  /* LIGHT */
+  background: linear-gradient(to top right, var(--glassColor1), var(--glassColor6)65%);
+  border: 2px solid var(--gradientColor1);
+  /* DARK */
+  background: linear-gradient(to top right, var(--glassColor3 ), var(--glassColor9)60%);
+  
+  border: 2px solid var(--gradientColor1);
+}
+
+.projectCard {
+  /* LIGHT */
+  box-shadow: 10px 10px 10px 5px var(--glassColor1);
+  border: 1.7px solid var(--gradientColor1);
+  /* DARK */
+  box-shadow: 10px 10px 10px 5px var(--glassColor1);
+  border: 1.7px solid var(--gradientColor1);
+}
+
+.projectCard:hover {
+  /* LIGHT */
+  background: linear-gradient(to top right, var(--glassColor3), var(--glassColor1)75%);
+  border: 1.9px solid var(--gradientColor1);
+  /* DARK */
+  background: linear-gradient(to top right, var(--glassColor3 ), var(--glassColor9)60%);
+  border: 2px solid var(--gradientColor2);
+  color: var(--textColor1);
+}
+
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */
+/* ********************************* */

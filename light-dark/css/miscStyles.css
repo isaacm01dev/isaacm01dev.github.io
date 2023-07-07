@@ -1,0 +1,150 @@
+
+/* ************ DAY-NIGHT *************** */
+
+.dayNight {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background: linear-gradient(to right, var(--gradientColor6) 50%, var(--gradientColor1) 50%);
+  margin-top: 2vh;
+  margin-left: 95%;
+  position: absolute;
+}
+
+.dayNight {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background: linear-gradient(to right, var(--gradientColor6) 50%, var(--gradientColor1) 50%);
+  margin-top: 2vh;
+  margin-left: 95%;
+  position: absolute;
+}
+
+.dayNightDark {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin-top: 2vh;
+  margin-left: 95%;
+  position: absolute;
+  /* DARK */
+  background: linear-gradient(to right, var(--gradientColor6) 50%, var(--gradientColor1) 50%); /* NO CAMBIA */
+}
+
+
+/* --------- HIDDEN DIVS ------ */
+.hidden {
+  width: 100vw;
+  height: 70vh;
+  margin-bottom: -10vh;
+  padding: 0;
+}
+
+
+
+/* *********** SUN / MOON ******** */
+.planetShadow {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  position: fixed;
+  margin-left: 55%;
+  margin-top: 5%; 
+  padding: 0;
+  z-index: 999;
+  box-shadow: 10px 10px 10px 5px var(--glassColor1);
+}
+
+.planet1 {
+  background: linear-gradient(to right, var(--gradientColor3), var(--gradientColor5), var(--gradientColor4));
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  animation: rotation1 10s infinite linear;
+}
+
+.planet1Dark {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  /* DARK */
+  background: linear-gradient(to right, var(--gradientColor1), var(--gradientColor6) 60%, var(--gradientColor8));
+  animation: rotation1 10s infinite linear;
+}
+
+.planet1:hover {
+  background: linear-gradient(to right, var(--gradientColor1), var(--gradientColor6) 20%, var(--gradientColor3));
+  animation: rotation1 25s infinite linear;
+}
+
+.planet1Dark:hover {
+  /* DARK */
+  background: linear-gradient(to right, var(--gradientColor3), var(--gradientColor5), var(--gradientColor4));
+  animation: rotation1 25s infinite linear;
+}
+
+.backHome {
+  width: 70px;  
+  height: 70px;
+  border-radius: 50%;  
+  position: fixed;
+  background: linear-gradient(to right, var(--glassColor3),  var(--glassColor1));
+  font-size: 1.6em;
+  font-family: var(--fontFamilyTitle1);
+  margin-right: 10%;
+  margin-left: clamp(70vw, 73vw, 85vw);
+  margin-top: 87vh;
+  border: 1.7px solid var(--gradientColor1);
+  box-shadow: 4px 4px 4px var(--glassColor1);
+  z-index: 99999;
+}
+
+
+.backHome a{
+  text-decoration: none;
+  color: var(--textColor1);
+}
+
+
+.backHome:hover {
+  cursor: pointer;
+  animation: rotation2 0.7s linear;
+}
+
+
+.lightDarkBtn {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  position: fixed;
+  margin-left: 78vw;
+  margin-top: 3vh;
+  z-index: 99999;
+}
+
+.lightDarkShadow {
+  padding: 0;
+  box-shadow: 5px 5px 10px 5px var(--glassColor1);
+}
+
+.lightDark {
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  
+  /* DARK */
+  background: linear-gradient(to bottom left, var(--gradientColor1) 15%, var( --glassColor2) 60%);
+  font-size: 1.2em;
+  font-family: var(--fontFamilyTitle1);
+  color: var(--textColor2);
+}
+
+
+.lightDark:hover {
+  cursor: pointer;
+  background: linear-gradient(to bottom left, var(--gradientColor1) 15%, var( --glassColor2) 60%);
+  background: linear-gradient(to bottom left, var(--gradientColor1) 15%, var(--gradientColor6) 60%, var(--gradientColor3));
+  color: var(--textColor9);
+}
+
