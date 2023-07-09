@@ -286,5 +286,27 @@
   background: radial-gradient(circle at bottom, white, rgba(0, 0, 0, 0.06) 70%);
 }
 
+/* EMAIL PARAGRAPH :  */
 
+.email {
+  
+  margin: 90vh 10vw 2vh 10vw;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+}
+
+.email a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.1rem;
+
+}
+
+.email a:hover {
+  color: red;
+}
 /* -------------------------------------------- */
