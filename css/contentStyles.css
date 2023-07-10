@@ -289,8 +289,8 @@
 /* EMAIL PARAGRAPH :  */
 
 .email {
-  
-  margin: 90vh 10vw 2vh 10vw;
+  transform: translateY(40vh);
+  margin-right: 6vw;
   position: absolute;
   display: flex;
   justify-content: center;
@@ -302,7 +302,7 @@
 .email a {
   text-decoration: none;
   color: white;
-  font-size: 1.1rem;
+  font-size: 1  rem;
 
 }
 
